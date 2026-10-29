@@ -1,0 +1,31 @@
+.env
+__pycache__/
+*.pyc
+bot_hafiza_1/
+spotify_session/
+client_secret.json
+.yt_token.json
+.cache
+.tmp_*.txt
+embeddings.db
+.models/
+
+# macOS
+.DS_Store
+
+# Üretilen loglar ve veritabanı
+*.log
+*_log.txt
+analytics.db
+crontab_yedek_*.txt
+
+# Çıktılar
+tiktok_videos/
+eksik_sarkilar/
+
+# Ayrı projeler (kendi depoları var)
+local_rag/
+LZW_Project/
+
+# Claude Code yerel ayarları (kişisel, sır içerebilir)
+.claude/
